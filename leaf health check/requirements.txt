@@ -1,0 +1,44 @@
+# Leaf Health Check - Production Dependencies (Updated for Python 3.13)
+
+# Frontend & Web Framework
+streamlit
+streamlit-option-menu
+
+# Deep Learning & AI
+tensorflow
+keras
+numpy
+scikit-learn
+
+# Image Processing
+opencv-python
+Pillow
+
+# Database
+# sqlite3 is built-in with Python, do not list it here to avoid pip errors.
+
+# Data Processing
+pandas
+matplotlib
+seaborn
+
+# Utilities
+python-dotenv
+requests
+Werkzeug
+
+# Development & Testing (optional)
+pytest
+black
+pylint
+flake8
+
+# Deployment
+# gunicorn  <-- Commented out: Gunicorn does not work on Windows!
+python-multipart
+
+# Google Gemini AI Integration
+google-generativeai
+
+# Optional: GPU support
+# tensorflow-gpu
